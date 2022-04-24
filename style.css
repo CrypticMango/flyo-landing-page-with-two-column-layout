@@ -19,7 +19,30 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0px;
+  font-family: var(--open-sans);
 }
+
+/*top section styling*/
+
+#folder-and-people {
+    width: 100%;
+}
+
+/*end of top section styling*/
+
+
+/* second section styling*/
+
+#people-holding-documents{
+    width: 100%;
+}
+
+#kyle-avatar {
+border-radius: 50%;
+width: 40px;
+}
+
+/*end of second section styling*/
 
 #desaturated-blue-section{
   background-color: var(--desaturated-blue);
