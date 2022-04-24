@@ -1,105 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
-  
-</head>
-<body>
-
-  <header>
-    <img src="/images/logo.svg" alt="fylo" aria-label="fylo-logo" id="top-fylo-logo">
-    <span>Features</span>
-    <span>Team</span>
-    <span>Sign In</span>
-  </header>
-
-  <div id="full-page">
-
-    <div id="top-section">
-      <img src="/images/illustration-1.svg" alt="big-files" aria-label="big-file-folder" id="folder-and-people">
-      <h1>All your files in one secure location, accessible anywhere.</h1>
-      <p>
-        Fylo stores your most important files in one secure location.
-        Access them wherever you need, share and collaborate with friends,
-        family, and co-workers.
-      </p>
-      <form action="#">
-      <label for="email-text"></label>
-      <input type="text" id="email-text" name="email-text" placeholder="Enter Your Email">
-      <input type="submit" value="Get Started">
-      </form>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <div id="second-section">
-      <img src="/images/illustration-2.svg" alt="people" aria-label="people-holding-paper" id="people-holding-documents" >
-      <h2>Stay productive, wherever you are</h2>
-      <p>
-        Never let location be an issue when accessing your files. Fylo has you
-        covered for all of your file storage needs.
-      </p>
-      <p>
-        Securely share files and folders with friends, family and colleagues for
-        live collaboration. No email attachments required!
-      </p>
-      <button>See how Fylo works <img src="/images/icon-arrow.svg" alt="arrow" aria-label="green-arrow" id="button-green-arrow"></button>
-      <div id="kyle-card">
-        <img src="/images/icon-quotes.svg" alt="quotes" aria-label="quotation-mark" id="black-quotations">
-        Fylo has improved our team productivity by an order of magnitude. Since
-        making the switch our team has become a well-oiled collaboration machine.
-      
-      <img src="/images/avatar-testimonial.jpg" alt="kyle" aria-label="kyle-burton" id="kyle-avatar">
-      Kyle Burton
-      Founder & CEO, Huddle
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="/images/logo.svg"
+        alt="fylo"
+        aria-label="fylo-logo"
+        id="top-fylo-logo"
+      />
+      <span>Features</span>
+      <span>Team</span>
+      <span>Sign In</span>
+    </header>
+
+    <div id="full-page">
+      <div id="top-section">
+        <img
+          src="/images/illustration-1.svg"
+          alt="big-files"
+          aria-label="big-file-folder"
+          id="folder-and-people"
+        />
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          Fylo stores your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family,
+          and co-workers.
+        </p>
+        <form action="#">
+          <label for="email-text"></label>
+          <input
+            type="text"
+            id="email-text"
+            name="email-text"
+            placeholder="Enter Your Email"
+          />
+          <input type="submit" value="Get Started" />
+        </form>
+      </div>
+
+      <div id="second-section">
+        <img
+          src="/images/illustration-2.svg"
+          alt="people"
+          aria-label="people-holding-paper"
+          id="people-holding-documents"
+        />
+        <h2>Stay productive, wherever you are</h2>
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p>
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required!
+        </p>
+        <button>
+          See how Fylo works
+          <img
+            src="/images/icon-arrow.svg"
+            alt="arrow"
+            aria-label="green-arrow"
+            id="button-green-arrow"
+          />
+        </button>
+        <div id="kyle-card">
+          <img
+            src="/images/icon-quotes.svg"
+            alt="quotes"
+            aria-label="quotation-mark"
+            id="black-quotations"
+          />
+          Fylo has improved our team productivity by an order of magnitude.
+          Since making the switch our team has become a well-oiled collaboration
+          machine.
+
+          <img
+            src="/images/avatar-testimonial.jpg"
+            alt="kyle"
+            aria-label="kyle-burton"
+            id="kyle-avatar"
+          />
+          Kyle Burton Founder & CEO, Huddle
+        </div>
+      </div>
+
+      <div id="desaturated-blue-section">
+        <h3>Get early access today</h3>
+        <p>
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+        <form action="#">
+          <label for="email-text-2"></label>
+          <input
+            type="text"
+            id="email-text-2"
+            name="email-text-2"
+            placeholder="email@example.com"
+          />
+          <input type="submit" value="Get Started For Free" />
+        </form>
+      </div>
+      <div id="dark-blue-section">
+        <img
+          src="/images/logo.svg"
+          alt="fylo"
+          aria-label="fylo-logo-2"
+          id="bottom-fylo-logo"
+        />
+        <p>
+          <img
+            src="/images/icon-phone.svg"
+            alt="phone"
+            aria-label="phone-icon"
+            id="white-phone-icon"
+          />
+          Phone: +1-543-123-4567
+        </p>
+        <span id="gmail-icon"
+          ><img
+            src="/images/icon-email.svg"
+            alt="letter"
+            aria-label="letter-mail"
+            id="white-gmail-icon" /></span
+        ><a href="mailto: example@fylo.com">example@fylo.com</a>
+        <a href="#">About Us</a>
+        <a href="#">Jobs</a>
+        <a href="#">Press</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <div id="social-links">
+          <button id="facebook">F</button>
+          <button id="twitter">T</button>
+          <button id="instagram">I</button>
+        </div>
       </div>
     </div>
 
-    <div id="desaturated-blue-section">
-      <h3>Get early access today</h3>
-      <p>
-        It only takes a minute to sign up and our free starter tier is extremely generous.
-        If you have any questions, our support team would be happy to help you.
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor.</a
+        >
+        Coded by
+        <a href="https://www.frontendmentor.io/profile/CrypticMango">Lisa</a>
       </p>
-      <form action="#">
-        <label for="email-text-2"></label>
-        <input type="text" id="email-text-2" name="email-text-2" placeholder="email@example.com">
-        <input type="submit" value="Get Started For Free">
-      </form>
-    </div>
-    <div id="dark-blue-section">
-      <img src="/images/logo.svg" alt="fylo" aria-label="fylo-logo-2" id="bottom-fylo-logo">
-      <p> <img src="/images/icon-phone.svg" alt="phone" aria-label="phone-icon" id="white-phone-icon"> Phone: +1-543-123-4567</p>
-      <span id="gmail-icon"><img src="/images/icon-email.svg" alt="letter" aria-label="letter-mail" id="white-gmail-icon"></span><a href="mailto: example@fylo.com">example@fylo.com</a>
-      <a href="#">About Us</a>
-      <a href="#">Jobs</a>
-      <a href="#">Press</a>
-      <a href="#">Blog</a>
-      <a href="#">Contact Us</a>
-      <a href="#">Terms</a>
-      <a href="#">Privacy</a>
-      <div id="social-links">
-        <button id="facebook">F</button>
-        <button id="twitter">T</button>
-        <button id="instagram">I</button>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a> 
-      Coded by <a href="https://www.frontendmentor.io/profile/CrypticMango">Lisa</a>
-    </p>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
