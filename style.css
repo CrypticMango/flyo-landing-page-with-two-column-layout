@@ -14,18 +14,55 @@
   --open-sans: "Open Sans", sans-serif;
 }
 
+/*general element styling*/
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 0px;
+  margin: 20px;
   font-family: var(--open-sans);
+  text-align: center;
 }
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*header styling*/
+
+#top-fylo-logo {
+    width: 70px;
+    padding-right: 43px;
+    font-size: var(--raleway);
+}
+
+#header-buttons {
+    padding-left: 40px;
+    position: relative;
+    top: -5px;
+}
+
+
+#features, #team {
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+#sign-in {
+    font-size: 12px;
+}
+
+/*header styling end*/
 
 /*top section styling*/
 
+
+
 #folder-and-people {
-    width: 100%;
+    margin-top: 85px;
+    width: 85%;
 }
 
 /*end of top section styling*/
@@ -34,7 +71,7 @@ body {
 /* second section styling*/
 
 #people-holding-documents{
-    width: 100%;
+    width: 85%;
 }
 
 #kyle-avatar {
