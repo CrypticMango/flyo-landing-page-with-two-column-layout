@@ -1,26 +1,40 @@
 :root {
-
-    /*primary*/
-    --very-dark-blue: hsl(243, 87%, 12%);
-    --desaturated-blue: hsl(238, 22%, 44%);
-    /*accents*/
-    --bright-blue: hsl(224, 93%, 58%);
-    --moderate-cyan: hsl(170, 45%, 43%);
-    /*neutral*/
-    --light-grayish-blue: hsl(240, 75%, 98%);
-    --light-gray: hsl(0, 0%, 75%);
-    /*headings, call-to-actions, header navigation*/
-    --raleway: 'Raleway', sans-serif;
-    /*body*/
-    --open-sans: 'Open Sans', sans-serif;
+  /*primary*/
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  /*accents*/
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+  /*neutral*/
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+  /*headings, call-to-actions, header navigation*/
+  --raleway: "Raleway", sans-serif;
+  /*body*/
+  --open-sans: "Open Sans", sans-serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+#desaturated-blue-section{
+  background-color: var(--desaturated-blue);
+  padding: 20px;
+}
+
+#dark-blue-section {
+  background-color: var(--very-dark-blue);
+  padding: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
