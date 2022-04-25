@@ -23,6 +23,9 @@ body {
   margin: 20px;
   font-family: var(--open-sans);
   text-align: center;
+  background-image: url(/images/bg-curve-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top 750px right 0px;
 }
 
 h1 {
@@ -118,6 +121,27 @@ h2 {
 border-radius: 50%;
 width: 40px;
 }
+
+#fylo-button {
+  margin: 20px 0px;
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+  color: var(--moderate-cyan);
+}
+
+#button-green-arrow {
+  position: relative;
+  top: 3px;
+}
+
+/*kyles card*/
+
+#kyle-card {
+  background-color: white;
+}
+
+/*kyles card end*/
 
 /*end of second section styling*/
 
