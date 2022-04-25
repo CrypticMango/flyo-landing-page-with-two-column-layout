@@ -30,6 +30,13 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: var(--raleway);
+  margin-top: 70px;
+}
+
 /*header styling*/
 
 #top-fylo-logo {
@@ -97,7 +104,14 @@ h1 {
 
 #people-holding-documents{
     width: 85%;
-    margin-top: 105px;
+    margin-top: 155px;
+}
+
+.productive-paragraphs {
+  text-align: left;
+  font-size: 13px;
+  color: var(--desaturated-blue);
+  padding: 0px 15px;
 }
 
 #kyle-avatar {
