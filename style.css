@@ -58,8 +58,6 @@ h1 {
 
 /*top section styling*/
 
-
-
 #folder-and-people {
     margin-top: 85px;
     width: 85%;
@@ -68,6 +66,28 @@ h1 {
 #fylo-stores {
     font-size: 13px;
     padding: 0px 25px;
+}
+
+#top-form {
+  margin-top: 40px;
+}
+
+#email-text {
+  width: 90%;
+  height: 30px;
+}
+
+#first-submit-button {
+  width: 92.3%;
+  height: 35px;
+  margin-top: 13px;
+  background-color: var(--bright-blue);
+  border: 1px solid var(--bright-blue);
+  border-radius: 3px;
+  color: white;
+  font-family: var(--open-sans);
+  font-weight: 700;
+  font-size: 12px;
 }
 
 /*end of top section styling*/
