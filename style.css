@@ -255,10 +255,41 @@ header {
 }
 /*end of desaturated blue section*/
 
+/*start of blue section*/
+
+#bottom-fylo-logo {
+stroke: white;
+fill: white;
+
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
 #dark-blue-section {
 	background-color: var(--very-dark-blue);
 	padding: 20px;
+	text-align: left;
+	padding: 0px 40px 50px 40px;
+	color: white;
 }
+
+#example-email a {
+	margin-top: 0px;
+	display: inline;
+}
+
+#dark-blue-section a {
+	color: white;
+	margin: 17px 0px 0px 0px;
+	display: block;
+	text-decoration: none;
+}
+
+#blog-button {
+	margin-bottom: 50px;
+}
+
+/*end of blue section*/
 
 .attribution {
 	font-size: 11px;
