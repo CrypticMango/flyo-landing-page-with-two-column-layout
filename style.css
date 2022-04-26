@@ -273,20 +273,39 @@ margin-bottom: 20px;
 	color: white;
 }
 
-#example-email a {
-	margin-top: 0px;
-	display: inline;
+#white-gmail-icon {
+	align-self: center;
+	justify-self: center;
+	margin-right: 15px;
 }
+
+#white-phone-icon {
+	margin-right: 15px;
+}
+
+#gmail-and-email {
+	display: flex;
+	flex-direction: row;
+}
+
 
 #dark-blue-section a {
 	color: white;
-	margin: 17px 0px 0px 0px;
 	display: block;
 	text-decoration: none;
 }
 
+#bottom-links a {
+	margin: 17px 0px 0px 0px;
+}
+
 #blog-button {
 	margin-bottom: 50px;
+}
+
+#social-links {
+	margin-top: 50px;
+	
 }
 
 /*end of blue section*/
