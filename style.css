@@ -117,10 +117,7 @@ h2 {
   padding: 0px 15px;
 }
 
-#kyle-avatar {
-border-radius: 50%;
-width: 40px;
-}
+
 
 #fylo-button {
   margin: 20px 0px;
@@ -137,9 +134,58 @@ width: 40px;
 
 /*kyles card*/
 
-#kyle-card {
-  background-color: white;
+#black-quotations {
+  margin-bottom: 5px;
 }
+
+#kyle-card {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.226);
+  margin-top: 25px;
+  margin-bottom: 80px;
+  font-size: 11px;
+  text-align: left;
+  padding: 25px;
+  line-height: 20px;
+}
+
+#kyle-card-text {
+margin-top: 0px;
+font-weight: 400;
+}
+
+#kyle-avatar {
+  border-radius: 50%;
+  width: 20px;
+  margin-right: 10px;
+  align-self: center;
+  }
+
+#avatar-and-name{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -10px;
+}
+
+#avatar-and-name p {
+  margin: 0px;
+  font-size: 9px;
+}
+
+#kyles-name {
+  font-weight: 700;
+  position: relative;
+  top: 8px;
+}
+
+#founder-ceo {
+  font-size: 4px;
+}
+
 
 /*kyles card end*/
 
