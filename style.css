@@ -1,67 +1,67 @@
 :root {
-  /*primary*/
-  --very-dark-blue: hsl(243, 87%, 12%);
-  --desaturated-blue: hsl(238, 22%, 44%);
-  /*accents*/
-  --bright-blue: hsl(224, 93%, 58%);
-  --moderate-cyan: hsl(170, 45%, 43%);
-  /*neutral*/
-  --light-grayish-blue: hsl(240, 75%, 98%);
-  --light-gray: hsl(0, 0%, 75%);
-  /*headings, call-to-actions, header navigation*/
-  --raleway: "Raleway", sans-serif;
-  /*body*/
-  --open-sans: "Open Sans", sans-serif;
+	/*primary*/
+	--very-dark-blue: hsl(243, 87%, 12%);
+	--desaturated-blue: hsl(238, 22%, 44%);
+	/*accents*/
+	--bright-blue: hsl(224, 93%, 58%);
+	--moderate-cyan: hsl(170, 45%, 43%);
+	/*neutral*/
+	--light-grayish-blue: hsl(240, 75%, 98%);
+	--light-gray: hsl(0, 0%, 75%);
+	/*headings, call-to-actions, header navigation*/
+	--raleway: "Raleway", sans-serif;
+	/*body*/
+	--open-sans: "Open Sans", sans-serif;
 }
 
 /*general element styling*/
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 20px;
-  font-family: var(--open-sans);
-  text-align: center;
-  background-image: url(/images/bg-curve-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: top 750px right 0px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 20px;
+	font-family: var(--open-sans);
+	text-align: center;
+	background-image: url(/images/bg-curve-mobile.svg);
+	background-repeat: no-repeat;
+	background-position: top 750px right 0px;
 }
 
 h1 {
-    font-size: 25px;
-    font-weight: 700;
+	font-size: 25px;
+	font-weight: 700;
 }
 
 h2 {
-  font-size: 15px;
-  font-weight: 700;
-  font-family: var(--raleway);
-  margin-top: 70px;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: var(--raleway);
+	margin-top: 70px;
 }
 
 /*header styling*/
 
 #top-fylo-logo {
-    width: 70px;
-    padding-right: 43px;
-    font-size: var(--raleway);
+	width: 70px;
+	padding-right: 43px;
+	font-size: var(--raleway);
 }
 
 #header-buttons {
-    padding-left: 40px;
-    position: relative;
-    top: -5px;
+	padding-left: 40px;
+	position: relative;
+	top: -5px;
 }
 
-
-#features, #team {
-    padding-right: 15px;
-    font-size: 12px;
+#features,
+#team {
+	padding-right: 15px;
+	font-size: 12px;
 }
 
 #sign-in {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 /*header styling end*/
@@ -69,142 +69,138 @@ h2 {
 /*top section styling*/
 
 #folder-and-people {
-    margin-top: 85px;
-    width: 85%;
+	margin-top: 85px;
+	width: 85%;
 }
 
 #fylo-stores {
-    font-size: 13px;
-    padding: 0px 25px;
+	font-size: 13px;
+	padding: 0px 25px;
 }
 
 #top-form {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 #email-text {
-  width: 90%;
-  height: 30px;
+	width: 90%;
+	height: 30px;
 }
 
 #first-submit-button {
-  width: 92.3%;
-  height: 35px;
-  margin-top: 13px;
-  background-color: var(--bright-blue);
-  border: 1px solid var(--bright-blue);
-  border-radius: 3px;
-  color: white;
-  font-family: var(--open-sans);
-  font-weight: 700;
-  font-size: 12px;
+	width: 92.3%;
+	height: 35px;
+	margin-top: 13px;
+	background-color: var(--bright-blue);
+	border: 1px solid var(--bright-blue);
+	border-radius: 3px;
+	color: white;
+	font-family: var(--open-sans);
+	font-weight: 700;
+	font-size: 12px;
 }
 
 /*end of top section styling*/
 
-
 /* second section styling*/
 
-#people-holding-documents{
-    width: 85%;
-    margin-top: 155px;
+#people-holding-documents {
+	width: 85%;
+	margin-top: 155px;
 }
 
 .productive-paragraphs {
-  text-align: left;
-  font-size: 13px;
-  color: var(--desaturated-blue);
-  padding: 0px 15px;
+	text-align: left;
+	font-size: 13px;
+	color: var(--desaturated-blue);
+	padding: 0px 15px;
 }
 
-
-
 #fylo-button {
-  margin: 20px 0px;
-  border: none;
-  background-color: white;
-  text-decoration: underline;
-  color: var(--moderate-cyan);
+	margin: 20px 0px;
+	border: none;
+	background-color: white;
+	text-decoration: underline;
+	color: var(--moderate-cyan);
 }
 
 #button-green-arrow {
-  position: relative;
-  top: 3px;
+	position: relative;
+	top: 3px;
 }
 
 /*kyles card*/
 
 #black-quotations {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 #kyle-card {
-  display: block;
-  margin: 0 auto;
-  width: 75%;
-  background-color: white;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.226);
-  margin-top: 25px;
-  margin-bottom: 80px;
-  font-size: 11px;
-  text-align: left;
-  padding: 25px;
-  line-height: 20px;
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	background-color: white;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.226);
+	margin-top: 25px;
+	margin-bottom: 80px;
+	font-size: 11px;
+	text-align: left;
+	padding: 25px;
+	line-height: 20px;
 }
 
 #kyle-card-text {
-margin-top: 0px;
-font-weight: 400;
+	margin-top: 0px;
+	font-weight: 400;
 }
 
 #kyle-avatar {
-  border-radius: 50%;
-  width: 20px;
-  margin-right: 10px;
-  align-self: center;
-  }
+	border-radius: 50%;
+	width: 20px;
+	margin-right: 10px;
+	align-self: center;
+}
 
-#avatar-and-name{
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  top: -10px;
+#avatar-and-name {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: -10px;
 }
 
 #avatar-and-name p {
-  margin: 0px;
-  font-size: 9px;
+	margin: 0px;
+	font-size: 9px;
 }
 
 #kyles-name {
-  font-weight: 700;
-  position: relative;
-  top: 8px;
+	font-weight: 700;
+	position: relative;
+	top: 8px;
 }
 
 #founder-ceo {
-  font-size: 4px;
+	font-size: 4px;
 }
-
 
 /*kyles card end*/
 
 /*end of second section styling*/
 
-#desaturated-blue-section{
-  background-color: var(--desaturated-blue);
-  padding: 20px;
+#desaturated-blue-section {
+	background-color: var(--desaturated-blue);
+	padding: 20px;
 }
 
 #dark-blue-section {
-  background-color: var(--very-dark-blue);
-  padding: 20px;
+	background-color: var(--very-dark-blue);
+	padding: 20px;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+	font-size: 11px;
+	text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+	color: hsl(228, 45%, 44%);
 }
