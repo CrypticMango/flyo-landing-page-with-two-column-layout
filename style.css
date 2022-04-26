@@ -20,7 +20,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	margin: 20px;
+	margin: 0px;
 	font-family: var(--open-sans);
 	text-align: center;
 	background-image: url(/images/bg-curve-mobile.svg);
@@ -38,6 +38,16 @@ h2 {
 	font-weight: 700;
 	font-family: var(--raleway);
 	margin-top: 70px;
+}
+
+h3 {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-size: 17px;
+}
+
+header {
+ margin:20px;
 }
 
 /*header styling*/
@@ -67,6 +77,10 @@ h2 {
 /*header styling end*/
 
 /*top section styling*/
+
+#top-section {
+	margin: 0px 20px;
+}
 
 #folder-and-people {
 	margin-top: 85px;
@@ -103,6 +117,10 @@ h2 {
 /*end of top section styling*/
 
 /* second section styling*/
+
+#second-section {
+	margin: 0px 20px;
+}
 
 #people-holding-documents {
 	width: 85%;
@@ -143,20 +161,20 @@ h2 {
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.226);
 	margin-top: 25px;
 	margin-bottom: 80px;
-	font-size: 11px;
 	text-align: left;
-	padding: 25px;
+	padding: 25px 25px 10px 25px;
 	line-height: 20px;
 }
 
 #kyle-card-text {
 	margin-top: 0px;
 	font-weight: 400;
+	font-size: 11px;
 }
 
 #kyle-avatar {
 	border-radius: 50%;
-	width: 20px;
+	width: 23px;
 	margin-right: 10px;
 	align-self: center;
 }
@@ -170,27 +188,72 @@ h2 {
 
 #avatar-and-name p {
 	margin: 0px;
-	font-size: 9px;
 }
+
+
 
 #kyles-name {
 	font-weight: 700;
 	position: relative;
-	top: 8px;
+	top: 5px;
+	font-size: 10px;
 }
 
-p #huddle {
-	font-size: 20px;
+#huddle {
+	font-size: 6px;
 }
+
+
 
 /*kyles card end*/
-
 /*end of second section styling*/
+
+/* desaturated blue section */
 
 #desaturated-blue-section {
 	background-color: var(--desaturated-blue);
 	padding: 20px;
+	color: var(--light-grayish-blue);
+	font-size: 15px;
+	font-family: var(--raleway);
+	padding: 20px;
+	margin: 0px;
+	line-height: 20px;
 }
+
+#get-access-blurb {
+	padding: 20px;
+	margin: 0;
+}
+
+#bottom-form {
+	margin-bottom: 40px;
+	padding: 0px 15px;
+	
+}
+
+#email-text-two {
+	width: 80.5%;
+	height: 35px;
+	border-radius: 3px;
+	border: none;
+}
+
+#bottom-submit-button {
+	width: 82.3%;
+	height: 35px;
+	margin-top: 13px;
+	background-color: var(--bright-blue);
+	border: 1px solid var(--bright-blue);
+	border-radius: 3px;
+	color: white;
+	font-family: var(--open-sans);
+	font-weight: 700;
+	font-size: 10px;
+	position: relative;
+	top: -5px;
+}
+/*end of desaturated blue section*/
 
 #dark-blue-section {
 	background-color: var(--very-dark-blue);
