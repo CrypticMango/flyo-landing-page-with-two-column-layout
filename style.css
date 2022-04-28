@@ -255,7 +255,7 @@ header {
 }
 /*end of desaturated blue section*/
 
-/*start of blue section*/
+/*start of dark blue section*/
 
 #bottom-fylo-logo {
 margin-top: 60px;
@@ -283,8 +283,8 @@ margin-bottom: 20px;
 #gmail-and-email {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 50px;
 }
-
 
 #dark-blue-section a {
 	color: white;
@@ -300,21 +300,44 @@ margin-bottom: 20px;
 	margin-bottom: 50px;
 }
 
+/*social links start*/
+
 #social-links {
 	margin-top: 50px;
-	
+	text-align: center;
 }
+
+.social-button {
+	border: 1px solid white;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color:transparent;
+	margin-right: 10px;
+}
+
+.fa-brands {
+	font-size: 16px;
+	color: white;
+}
+
+/*social links end*/
 
 .white-phone-icon {
 	fill: white;
 }
 
-/*end of blue section*/
+/*end of dark blue section*/
+
+footer {
+	background-color: var(--very-dark-blue);
+}
 
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	color: white;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: white;
 }
