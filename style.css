@@ -258,10 +258,7 @@ header {
 /*start of blue section*/
 
 #bottom-fylo-logo {
-stroke: white;
-fill: white;
-
-margin-top: 50px;
+margin-top: 60px;
 margin-bottom: 20px;
 }
 
@@ -306,6 +303,10 @@ margin-bottom: 20px;
 #social-links {
 	margin-top: 50px;
 	
+}
+
+.white-phone-icon {
+	fill: white;
 }
 
 /*end of blue section*/
