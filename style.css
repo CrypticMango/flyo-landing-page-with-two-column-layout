@@ -41,6 +41,7 @@ h2 {
 	font-family: var(--raleway);
 	margin-top: 70px;
 	margin-bottom: 20px;
+	color: var(--very-dark-blue);
 }
 
 h3 {
@@ -391,7 +392,7 @@ footer {
 	}
 
 	#fylo-stores {
-		font-size: 18px;
+		font-size: 16px;
 		padding: 0;
 	}
 
@@ -417,6 +418,31 @@ footer {
 	}
 
 	/*second section styling */
+
+	h2 {
+		font-size: 35px;
+	}
+
+	#second-section {
+		text-align: left;
+		padding-left: 60px;
+	}
+
+	.productive-paragraphs {
+		padding-left: 0;
+		font-size: 16px;
+	}
+
+	#fylo-button {
+		font-size: 16px;
+		margin-top: 0;
+	    padding-left: 0;
+	}
+
+	#kyle-card {
+		margin-left: 0;
+		width: 230px;
+	}
 
 	/*third section styling*/
 
