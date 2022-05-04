@@ -446,6 +446,33 @@ footer {
 
 	/*third section styling*/
 
+	h3 {
+		font-size: 30px;
+	}
+
+	#desaturated-blue-section {
+		text-align: left;
+		padding: 70px;
+	}
+
+	#get-access-blurb {
+		padding-left: 0;
+		padding-right: 300px;
+		font-size: 16px;
+	}
+
+	#email-text-two {
+		width: 450px;
+		height: 40px;
+	}
+
+	#bottom-submit-button {
+		width: 200px;
+		height: 40px;
+		font-size: 13px;
+		margin-top: 20px;
+	}
+
 	/*last section styling*/
 }
 	
