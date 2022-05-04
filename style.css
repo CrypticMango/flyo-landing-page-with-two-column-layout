@@ -345,3 +345,9 @@ footer {
 .attribution a {
 	color: white;
 }
+
+@media (min-width:1440px) {
+	b {
+
+	}
+}
