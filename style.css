@@ -296,7 +296,7 @@ margin-bottom: 20px;
 	text-decoration: none;
 }
 
-#bottom-links a {
+.bottom-links a {
 	margin: 17px 0px 0px 0px;
 }
 
@@ -347,7 +347,18 @@ footer {
 }
 
 @media (min-width:1440px) {
-	b {
 
+	#top-section, #second-section {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	#desaturated-blue-section, #dark-blue-section {
+		display: flex;
+	}
+
+	#dark-blue-section {
+		justify-content: space-between;
 	}
 }
+	
