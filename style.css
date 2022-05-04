@@ -375,6 +375,11 @@ footer {
 
 	/*header styling*/
 
+	#top-fylo-logo {
+		margin-right: 920px;
+		width: 160px;
+	}
+
 	/*top section styling*/
 
 	h1 {
