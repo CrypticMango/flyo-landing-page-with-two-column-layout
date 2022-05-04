@@ -31,6 +31,8 @@ body {
 h1 {
 	font-size: 25px;
 	font-weight: 700;
+	font-family: var(--raleway);
+	color: var(--very-dark-blue);
 }
 
 h2 {
@@ -91,6 +93,7 @@ header {
 #fylo-stores {
 	font-size: 13px;
 	padding: 0px 25px;
+	color: var(--very-dark-blue);
 }
 
 #top-form {
@@ -347,6 +350,11 @@ footer {
 }
 
 @media (min-width:1440px) {
+/*general desktop styling*/
+
+	header {
+		margin: 50px 0px 50px 0px;
+	}
 
 	#top-section, #second-section {
 		display: flex;
@@ -360,5 +368,53 @@ footer {
 	#dark-blue-section {
 		justify-content: space-between;
 	}
+
+	#top-section {
+		margin: 0px 50px;
+	}
+
+	/*header styling*/
+
+	/*top section styling*/
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h1, #fylo-stores {
+		text-align: left;
+	}
+
+	#fylo-stores {
+		font-size: 18px;
+		padding: 0;
+	}
+
+	#top-section-form-and-text {
+		width: 600px;
+	}
+
+
+	#top-form {
+		display: flex;
+	}
+
+	#email-text {
+		margin-right: 15px;
+		width: 300px;
+		height: 39px;
+	}
+
+	#first-submit-button {
+		margin: 0;
+		width: 190px;
+		height: 45px;
+	}
+
+	/*second section styling */
+
+	/*third section styling*/
+
+	/*last section styling*/
 }
 	
