@@ -351,10 +351,17 @@ footer {
 }
 
 @media (min-width:1440px) {
-/*general desktop styling*/
+
+	/*general desktop styling*/
+
+	body {
+		background-image: url(/images/bg-curve-desktop.svg);
+		background-repeat: none;
+		background-position: top 847px right 0px;
+	}
 
 	header {
-		margin: 50px 0px 50px 0px;
+		margin: 50px 0px 90px 0px;
 	}
 
 	#top-section, #second-section {
@@ -371,20 +378,29 @@ footer {
 	}
 
 	#top-section {
-		margin: 0px 50px;
+		margin: 0px 80px 0px 80px;
 	}
 
 	/*header styling*/
 
 	#top-fylo-logo {
-		margin-right: 920px;
+		margin-right: 700px;
 		width: 160px;
+	}
+	
+	#features, #team, #sign-in {
+		font-size: 17px;
+	}
+
+	#features, #team {
+		padding-right: 60px;
 	}
 
 	/*top section styling*/
 
 	h1 {
-		font-size: 40px;
+		font-size: 35px;
+		line-height: 3rem;
 	}
 
 	h1, #fylo-stores {
@@ -394,15 +410,20 @@ footer {
 	#fylo-stores {
 		font-size: 16px;
 		padding: 0;
+		margin: 0;
 	}
 
 	#top-section-form-and-text {
 		width: 600px;
+		align-self: center;
+		justify-self: center;
+		margin-right: 75px;
 	}
 
 
 	#top-form {
 		display: flex;
+		margin-top: 15px;
 	}
 
 	#email-text {
@@ -417,20 +438,34 @@ footer {
 		height: 45px;
 	}
 
+	#folder-and-people {
+		width: 650px;
+		margin-top: 0;
+		align-self: center;
+		justify-self: center;
+	}
+
 	/*second section styling */
 
 	h2 {
-		font-size: 35px;
+		font-size: 43px;
 	}
 
 	#second-section {
 		text-align: left;
 		padding-left: 60px;
+		margin-top: 350px;
 	}
 
 	.productive-paragraphs {
-		padding-left: 0;
-		font-size: 16px;
+		padding-left: 0px;
+		padding-right: 160px;
+		font-size: 14px;
+		color: var(--very-dark-blue);
+	}
+
+	.never-let {
+		margin-top: 40px;
 	}
 
 	#fylo-button {
@@ -441,7 +476,22 @@ footer {
 
 	#kyle-card {
 		margin-left: 0;
-		width: 230px;
+		width: 270px;
+	}
+
+	#kyle-card-text {
+		font-size: 13px;
+		font-family: var(--raleway);
+		font-weight: 400;
+	}
+
+	#huddle {
+		font-size: 9px;
+	}
+
+	#people-holding-documents {
+		width: 600px;
+		padding-right: 20px;
 	}
 
 	/*third section styling*/
@@ -474,5 +524,27 @@ footer {
 	}
 
 	/*last section styling*/
+
+	#dark-blue-section {
+		padding-bottom: 0px;
+	}
+
+	#logo-and-contact {
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+
+	#company-info-links {
+		margin-top: 185px;
+	}
+
+	.more-info-links {
+		margin-top: 189px;
+	}
+
+	#social-links {
+		margin-right: 90px;
+		margin-top: 205px;
+	}
+
 }
-	
