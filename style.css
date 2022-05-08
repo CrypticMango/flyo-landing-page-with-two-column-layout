@@ -54,6 +54,10 @@ header {
  margin:20px;
 }
 
+::placeholder{
+	color: rgba(128, 128, 128, 0.322);
+}
+
 /*header styling*/
 
 #top-fylo-logo {
@@ -117,6 +121,12 @@ header {
 	font-family: var(--open-sans);
 	font-weight: 700;
 	font-size: 12px;
+}
+
+#first-submit-button:hover {
+	background-color: hsl(224, 70%, 68%);
+	border: 1px solid hsl(224, 70%, 68%);
+	cursor: pointer;
 }
 
 /*end of top section styling*/
@@ -261,6 +271,12 @@ header {
 	position: relative;
 	top: -5px;
 }
+
+#bottom-submit-button:hover {
+	background-color: hsl(224, 70%, 68%);
+	border: 1px solid hsl(224, 70%, 68%);
+	cursor: pointer;
+}
 /*end of desaturated blue section*/
 
 /*start of dark blue section*/
@@ -302,6 +318,11 @@ margin-bottom: 20px;
 
 .bottom-links a {
 	margin: 17px 0px 0px 0px;
+}
+
+.bottom-links:hover {
+	cursor: pointer;
+	color: hsl(224, 70%, 68%);
 }
 
 #blog-button {
@@ -357,7 +378,7 @@ footer {
 	body {
 		background-image: url(/images/bg-curve-desktop.svg);
 		background-repeat: none;
-		background-position: top 847px right 0px;
+		background-position: top 915px right 0px;
 	}
 
 	header {
@@ -492,6 +513,7 @@ footer {
 	#people-holding-documents {
 		width: 600px;
 		padding-right: 20px;
+		margin-bottom: 150px;
 	}
 
 	/*third section styling*/
@@ -546,5 +568,4 @@ footer {
 		margin-right: 90px;
 		margin-top: 205px;
 	}
-
 }
