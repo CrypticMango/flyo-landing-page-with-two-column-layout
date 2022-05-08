@@ -163,6 +163,12 @@ header {
 	border-bottom: 1px solid var(--moderate-cyan);
 	line-height: 20px;
 	color: var(--moderate-cyan);
+	background-color: var(--light-grayish-blue);
+}
+
+#fylo-button:hover {
+	cursor: pointer;
+	color: hsl(170, 69%, 60%);
 }
 
 #button-green-arrow {
