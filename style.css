@@ -72,6 +72,11 @@ header {
 	top: -5px;
 }
 
+#header-buttons a {
+	color: black;
+	text-decoration: none;
+}
+
 #features,
 #team {
 	padding-right: 15px;
