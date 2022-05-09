@@ -134,6 +134,11 @@ header {
 	cursor: pointer;
 }
 
+.check-email-message {
+	color: rgb(241, 127, 127);
+	text-align: left;
+}
+
 /*end of top section styling*/
 
 /* second section styling*/
