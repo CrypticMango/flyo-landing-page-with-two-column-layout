@@ -565,6 +565,11 @@ footer {
 		margin-top: 20px;
 	}
 
+	#third-section-form {
+		position: relative;
+		top: 30px;
+	}
+		
 	/*last section styling*/
 
 	
@@ -588,5 +593,15 @@ footer {
 	#social-links {
 		margin-right: 90px;
 		margin-top: 205px;
+	}
+
+	.fa-brands:hover {
+		color: hsl(224, 70%, 68%);
+
+	}
+
+	.social-button:hover {
+		border: 1px solid hsl(224, 70%, 68%);
+		cursor: pointer;
 	}
 }
