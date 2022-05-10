@@ -310,6 +310,10 @@ margin-bottom: 20px;
 	color: white;
 }
 
+#dark-blue-section a:hover {
+	color: hsl(224, 70%, 68%);
+}
+
 #white-gmail-icon {
 	align-self: center;
 	justify-self: center;
@@ -336,9 +340,8 @@ margin-bottom: 20px;
 	margin: 17px 0px 0px 0px;
 }
 
-.bottom-links:hover {
+.bottom-links a:hover {
 	cursor: pointer;
-	color: hsl(224, 70%, 68%);
 }
 
 #blog-button {
@@ -564,6 +567,7 @@ footer {
 
 	/*last section styling*/
 
+	
 	#dark-blue-section {
 		padding-bottom: 0px;
 	}
