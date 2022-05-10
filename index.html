@@ -26,8 +26,12 @@
 
     <script>
 
-      function showMessage() {
-       document.getElementsByClassName("check-email-message").innerHTML = 'Please check your email';
+      function showMessageTop() {
+       document.getElementsByClassName("top-email-error").innerHTML = 'Please check your email';
+
+       function showMessageBottom() {
+        document.getElementsByClassName("bottom-email-error").innerHTML = 'Please check your email';
+       }
       }
 
      
@@ -93,7 +97,7 @@
               />
               <input type="submit" value="Get Started" id="first-submit-button" />
             </form>
-            <div class="check-email-message"></div>
+            <div id="check-email-message top-email-error"></div>
                     </div>
                    
           </div>
@@ -188,7 +192,7 @@
                 name="email-text-two"
                 placeholder="      email@example.com"
               />
-              <div class="check-email-message hide-email-message">Please check your email</div>
+              <div class="check-email-message bottom-email-error"></div>
               <input type="submit" value="Get Started For Free" id="bottom-submit-button"/>
             </form>
             
