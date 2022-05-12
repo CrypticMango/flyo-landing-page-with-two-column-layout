@@ -24,20 +24,6 @@
 
     <script src="https://kit.fontawesome.com/b5252524d8.js" crossorigin="anonymous"></script>
 
-    <script>
-
-      function showMessageTop() {
-       document.getElementsByClassName("top-email-error").innerHTML = 'Please check your email';
-
-       function showMessageBottom() {
-        document.getElementsByClassName("bottom-email-error").innerHTML = 'Please check your email';
-       }
-      }
-
-     
-
-    </script>
-
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
 
@@ -87,7 +73,10 @@
               and co-workers.
             </p>
             <!-- top email submit form  -->
-            <form action="#" id="top-form" onsubmit="showMessage()" >
+            <form action="#" id="top-form" 
+            
+            onsubmit="document.getElementById('check-email-message').innerHTML = 'Please check your email.'" >
+
               <label for="email-text"></label>
               <input
                 type="text"
@@ -184,7 +173,7 @@
           </div>
 
           <div id="third-section-form">
-            <form action="#" id="bottom-form">
+            <form action="#" id="bottom-form" onsubmit="showMessageBottom()">
               <label for="email-text-two"></label>
               <input
                 type="text"
@@ -193,7 +182,7 @@
                 placeholder="      email@example.com"
               />
               <div class="check-email-message bottom-email-error"></div>
-              <input type="submit" value="Get Started For Free" id="bottom-submit-button"/>
+              <input type="submit"  value="Get Started For Free" id="bottom-submit-button"/>
             </form>
             
           </div>
